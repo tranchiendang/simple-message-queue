@@ -1,15 +1,24 @@
 {
   "name": "simple_message_broker",
   "version": "1.0.0",
-  "description": "",
+  "description": "The simple message broker implement by using redis queue",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "N/A"
   },
-  "dependencies": {
-    "dotenv": "^4.0.0",
-    "redis": "^2.8.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranchiendang/simple-message-queue.git"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "redis",
+    "message",
+    "broker"
+  ],
+  "author": "tranchiendang@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranchiendang/simple-message-queue/issues"
+  },
+  "homepage": "https://github.com/tranchiendang/simple-message-queue#readme"
 }
